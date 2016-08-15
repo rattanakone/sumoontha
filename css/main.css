@@ -18,19 +18,23 @@ body {
 }
 .navbar-custom .navbar-brand {
   color: black;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: black;
+  text-transform: uppercase;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 0;
 }
 .navbar-custom .navbar-nav li a {
   color: black;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  font-size: 15px;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;
@@ -65,13 +69,13 @@ body {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 25px 0;
+    padding: 20px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-size: 5em;
+    font-size: 15px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -82,4 +86,70 @@ body {
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
   }
+}
+
+
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+
+section.module p:last-child {
+  margin-bottom: 0;
+}
+
+section.module.parallax {
+  height: 800px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+section.module.parallax h1 {
+  color: white;
+  font-size: 95px;
+  line-height: 600px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+section.module.parallax-1 {
+  background-image: url('../img/template6.png');
+}
+
+section.module.parallax-2 {
+  background-image: url('../img/template2.png');
+}
+
+section.module.parallax-3 {
+  background-image: url('../img/template1.png');
+}
+
+section.module.content {
+  background: black;
+  padding: 200px;
+}
+
+#mycompany {
+  margin-top: 100px;
+}
+
+#mytitle {
+  font-size: 20px;
+  color: black;
+  margin-top: -240px;
+  text-align: center;
+  background: white;
+  padding: 10px;
 }
