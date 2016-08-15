@@ -26,7 +26,7 @@ body {
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: black;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 0;
@@ -98,7 +98,7 @@ section.module p {
   margin-bottom: 40px;
   font-size: 16px;
   font-weight: 300;
-  color: white;
+  color: black;
 }
 
 section.module p:last-child {
@@ -106,7 +106,7 @@ section.module p:last-child {
 }
 
 section.module.parallax {
-  height: 800px;
+  height: 780px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -118,7 +118,7 @@ section.module.parallax {
 
 section.module.parallax h1 {
   color: white;
-  font-size: 95px;
+  font-size: 110px;
   line-height: 600px;
   text-align: center;
   text-shadow: 2px 2px 2px #000000;
@@ -137,19 +137,23 @@ section.module.parallax-3 {
 }
 
 section.module.content {
-  background: black;
+  background: white;
   padding: 200px;
 }
 
 #mycompany {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #mytitle {
-  font-size: 20px;
+  font-size: 22px;
   color: black;
-  margin-top: -240px;
+  margin-top: -250px;
   text-align: center;
   background: white;
   padding: 10px;
+  letter-spacing: 9px;
 }
+
+
+
