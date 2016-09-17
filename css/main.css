@@ -5,12 +5,14 @@ html {
 
 body {
     overflow-x: hidden;
-    font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif; 
+    font-family: 'Lato', sans-serif; 
 }
 
 .navbar-custom {
   background: white;
-  font-family: Didot, 'Didot LT STD', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  font: 400 1em/1.5em 'Lato';
+  font: Ultra-Light 400 1em/1.5em 'Lato';
+  font: Ultra-Light 400 1em/1.5em 'Lato', sans-serif;
   border: none;
 }
 .navbar-custom a:focus {
@@ -20,21 +22,23 @@ body {
   color: black;
   text-transform: uppercase;
   font-size: 15px;
+  letter-spacing: 5px;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: black;
-  text-transform: lowercase;
+  text-transform: uppercase;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 0;
 }
 .navbar-custom .navbar-nav li a {
   color: black;
-  text-transform: lowercase;
-  font-size: 15px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
 }
 .navbar-custom .navbar-nav li a:hover {
   color: #18BC9C;
@@ -69,16 +73,17 @@ body {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 15px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font-size: 15px;
+    font-size: 13px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
+    letter-spacing: 5px;
   }
   .navbar-custom.affix {
     padding: 20px 0;
@@ -116,16 +121,27 @@ section.module.parallax {
   background-size: cover;
 }
 
-section.module.parallax h1 {
+section.module.parallax-1 h1 {
   color: white;
-  font-size: 110px;
+  font-size: 85px;
+  line-height: 600px;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+section.module.parallax-2 h1 {
+  color: white;
+  font-size: 80px;
   line-height: 600px;
   text-align: center;
   text-shadow: 2px 2px 2px #000000;
 }
 
 section.module.parallax-1 {
-  background-image: url('../img/template6.png');
+  min-height: 100%;
+  background-image: url('../img/template9.jpeg');
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
 }
 
 section.module.parallax-2 {
@@ -142,18 +158,51 @@ section.module.content {
 }
 
 #mycompany {
-  margin-top: 50px;
+  margin-top: 260px; 
+  font: 100 1em/1.5em 'Lato';
+  font: Ultra-Light 100 1em/1.5em 'Lato';
+  font: Ultra-Light 100 1em/1.5em 'Lato', sans-serif;
+  font-size: 90px;
+  color: black;
+  letter-spacing: 50px;
 }
 
 #mytitle {
-  font-size: 22px;
-  color: black;
-  margin-top: -250px;
+  font: 300 1em/1.5em 'Lato';
+  font: Ultra-Light 300 1em/1.5em 'Lato';
+  font: Ultra-Light 300 1em/1.5em 'Lato', sans-serif;
+  font-size: 28px;
+  color: white;
   text-align: center;
-  background: white;
-  padding: 10px;
-  letter-spacing: 9px;
+  /*background: rgba(255, 255, 255, 0.2);*/
+  letter-spacing: 3px;
+  margin-top: -1px;
 }
 
+#mydownarrow {
+  color: white;
+  margin-top: 250px;
+  text-align: center;
+}
 
+.myintro {
+  text-align: left;
+}
 
+.myintroheadingone {
+  font-size: 45px;
+  margin-top: -10px;
+ 
+}
+
+.myintroparagraphs {
+  margin-top: 30px;
+  font-size: 17px;
+}
+
+.mynamecorrectly {
+  font-style: italic;
+  text-align: right;
+  font-size: 20px;
+  margin-top: -25px;
+}
