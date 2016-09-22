@@ -19,9 +19,9 @@ body {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  font: 700 1em/1.5em 'Lato';
-  font: Ultra-Light 700 1em/1.5em 'Lato';
-  font: Ultra-Light 700 1em/1.5em 'Lato', sans-serif;
+  font: 900 1em/1.5em 'Lato';
+  font: Ultra-Light 900 1em/1.5em 'Lato';
+  font: Ultra-Light 900 1em/1.5em 'Lato', sans-serif;
   color: black;
   text-transform: uppercase;
   font-size: 16px;
@@ -82,9 +82,9 @@ body {
     transition: padding 0.3s;
   }
   .navbar-custom .navbar-brand {
-    font: 700 1em/1.5em 'Lato';
-    font: Ultra-Light 700 1em/1.5em 'Lato';
-    font: Ultra-Light 700 1em/1.5em 'Lato', sans-serif;
+    font: 900 1em/1.5em 'Lato';
+    font: Ultra-Light 900 1em/1.5em 'Lato';
+    font: Ultra-Light 900 1em/1.5em 'Lato', sans-serif;
     font-size: 16px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -128,27 +128,38 @@ section.module.parallax {
   background-size: cover;
 }
 
-section.module.parallax-1 h1 {
-  color: white;
-  font-size: 85px;
-  line-height: 600px;
-  text-align: center;
-  text-shadow: 2px 2px 2px #000000;
-}
-
 section.module.parallax-2 h1 {
-  color: white;
-  font-size: 80px;
+  font-weight: 300;
+  color: black;
+  font-size: 50px;
   line-height: 600px;
-  text-align: center;
-  text-shadow: 2px 2px 2px #000000;
+  text-align: right;
+  letter-spacing: 2px;
+} 
+
+section.module.parallax-3 h1 {
+  font-weight: 300;
+  color: black;
+  font-size: 50px;
+  line-height: 600px;
+  text-align: right;
+  letter-spacing: 2px;
+} 
+
+section.module.parallax-4 h1 {
+  font-weight: 300;
+  color: black;
+  font-size: 50px;
+  line-height: 600px;
+  text-align: right;
+  letter-spacing: 2px;
 }
 
 section.module.parallax-1 {
-  /*min-height: 100%;*/
-  background-image: url('../img/template9.jpeg');
-  /*background-size: cover;*/
-  /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.1);*/
+  min-height: 100%;
+  background-image: url('../img/soumontha-rattanakone-me-watercolor.jpg');
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(255,255,255,0.8);
 }
 
 section.module.parallax-2 {
@@ -174,34 +185,38 @@ section.module.content {
 
 #mycompany {
   margin-top: 260px; 
-  font: 100 1em/1.5em 'Lato';
-  font: Ultra-Light 100 1em/1.5em 'Lato';
-  font: Ultra-Light 100 1em/1.5em 'Lato', sans-serif;
+  font: 300 1em/1.5em 'Lato';
+  font: Ultra-Light 300 1em/1.5em 'Lato';
+  font: Ultra-Light 300 1em/1.5em 'Lato', sans-serif;
   font-size: 90px;
   color: black;
   letter-spacing: 50px;
 }
 
 #mytitle {
-  font: 300 1em/1.5em 'Lato';
-  font: Ultra-Light 300 1em/1.5em 'Lato';
-  font: Ultra-Light 300 1em/1.5em 'Lato', sans-serif;
+  font: 100 1em/1.5em 'Roboto';
+  font: Ultra-Light 100 1em/1.5em 'Roboto';
+  font: Ultra-Light 100 1em/1.5em 'Roboto', sans-serif;
   font-size: 28px;
-  color: white;
+  color: black;
   text-align: center;
   /*background: rgba(255, 255, 255, 0.2);*/
-  letter-spacing: 3px;
+  letter-spacing: 4px;
   margin-top: -1px;
 }
 
 #mydownarrow {
-  color: white;
-  margin-top: 250px;
+  color: black;
+  margin-top: 200px;
   text-align: center;
 }
 
+#myseconddownarrow {
+  color: black;
+}
+
 #myimage {
-  margin-top: 30px;
+  margin-top: 7px;
 }
 
 #myintro {
@@ -225,4 +240,95 @@ section.module.content {
   color: black;
 }
 
+.space-images {
+  padding-top: 500px;
+  padding-bottom: 100px;
+}
 
+.exercise {
+  background-image: url('../img/soumontha-rattanakone-exercise.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.video {
+  background-image: url('../img/soumontha-rattanakone-icecream.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.monkey {
+  background-image: url('../img/soumontha-rattanakone-monkey.jpeg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.food {
+  background-image: url('../img/soumontha-rattanakone-noodles.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.mountain {
+  background-image: url('../img/soumontha-rattanakone-mountain.jpeg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.makeup {
+  background-image: url('../img/soumontha-rattanakone-makeup.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.fortune {
+  background-image: url('../img/soumontha-rattanakone-fortune-cookie.jpg');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.deer {
+  background-image: url('../img/soumontha-rattanakone-deer.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
