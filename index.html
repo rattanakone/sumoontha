@@ -77,7 +77,7 @@
                 luxury web designer & web developer 
                 <br>
                 <br>
-                <hr class="style14">
+                <!--<hr class="style14">-->
             </div>
         </div>
     </section>
@@ -87,8 +87,8 @@
     <section id="about" class="module content">
         <div id="mypaddingboxes">
             <div class="row">
-                <div class="col-lg-6 text-center"></div>
-                <div class="col-lg-6 text-center">
+                <!--<div class="col-lg-6 text-center"></div>-->
+                <div class="col-lg-12 text-center">
                     <h1 class="myheadingone">INTRODUCTION</h1>
                     <br>
                     <hr class="style14">
@@ -98,13 +98,10 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 text-left"></div>
-            </div>
-            <div class="row">
-                <div id="myimage" class="col-lg-6 text-center">
+                <!--<div id="myimage" class="col-lg-6 text-center">
                     <img src="img/IMG_5171 copy.jpg">
-                </div>
-                <div id="myintro" class="col-lg-6 text-left">
+                </div>-->
+                <div id="myintro" class="col-lg-12 text-left">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </div>
             </div>
@@ -415,9 +412,25 @@
 
 
     <section class="module content">
-        <div id="mypaddingboxes">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        <div class="myform">
+                    <form method="POST">
+                        <label for="fname">Name</label>  
+                        <input type="text" name="name" placeholder="Your full name"><br>
+                        <label for="email">Email</label><br> 
+                        <input type="email" name="_replyto" placeholder="Your email address"><br>
+                        <input type="hidden" name="_subject" value="Website contact" />
+                        <label for="message">Message</label><br> 
+                        <textarea placeholder="Your message"></textarea><br>
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <input type="submit" value="Send">
+                        <input type="hidden" name="_next" value="//google.com" />
+                    </form>   
+                    <script>
+                        var contactform =  document.getElementById('contactform');
+                        contactform.setAttribute('action', '//formspree.io/' + 'colormythoughtsingold' + '@' + 'gmail' + '.' + 'com');
+                    </script>  
         </div>
+        
     </section>
 
     <section class="module parallax parallax-5">

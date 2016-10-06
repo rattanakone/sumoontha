@@ -159,7 +159,7 @@ section.module.parallax-1 {
 section.module.parallax-2 {
   min-height: 100%;
   background-image: url('../img/m3.jpg');
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.3);
+  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.1);
 }
 
 section.module.parallax-3 {
@@ -195,7 +195,7 @@ section.module.content {
 
 #mytitle {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 15px;
+  font-size: 16px;
   color: #43464b;
   text-align: center;  
   margin-top: -30px;
@@ -215,6 +215,8 @@ section.module.content {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #43464b;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 .myheadingone {
@@ -769,7 +771,7 @@ section.module.content {
 }
 
 #mypaddingboxes {
-  padding: 115px;
+  padding: 200px;
 }
 
 .style14 {
@@ -780,4 +782,45 @@ section.module.content {
   background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+}
+
+.myform {
+  margin: 100px;
+  padding-right: 400px;
+  padding-left: 400px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
 }
