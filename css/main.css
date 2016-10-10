@@ -43,12 +43,12 @@ body {
 .navbar-custom .nav li a {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #43464b;
-  text-transform: uppercase;
-  font-size: 11px;
+  text-transform: capitalize;
+  font-size: 13px;
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #fed136;
+  color: #00e5e5;
   outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {
@@ -90,7 +90,7 @@ body {
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
@@ -222,7 +222,7 @@ section.module.content {
 .myheadingone {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 35px;
   color: black;
 }
 
