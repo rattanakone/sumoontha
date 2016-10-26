@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-custom {
-  background-color: #00e5e5;
+  background-color: #ffffff;
   border-color: transparent;
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
@@ -71,7 +71,7 @@ body {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding: 25px 0;
+    padding: 55px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -93,8 +93,14 @@ body {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #00e5e5;
+    background-color: #ffffff;
     padding: 10px 0;
+  }
+  .navbar-custom .nav li a {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #43464b;
+    text-transform: capitalize;
+    font-size: 13px;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 12px;
@@ -158,39 +164,37 @@ section.module.parallax-4 h1 {
 
 section.module.parallax-1 {
   /*min-height: 100%;*/
-  background-image: url('../img/me3.jpg');
-  background-size: cover;
+  background-image: url('../img/splashimage4.jpg');
+  background-size: 1050px;
   /*box-shadow:inset 0 0 0 2000px rgba(255,255,255,0.3);*/
 }
 
 section.module.parallax-2 {
-  height: 300px;
-  background-image: url('../img/m32.jpg');
+  height: 400px;
+  background-image: url('../img/glasses.jpg');
   /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);*/
 }
 
 section.module.parallax-3 {
-  height: 300px;
-  background-image: url('../img/drink.jpg');
+  height: 400px;
+  background-image: url('../img/m32.jpg');
   /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.4);*/
 }
 
 section.module.parallax-4 {
-  height: 300px;
-  background-image: url('../img/eyewoman.jpg');
+  height: 400px;
+  background-image: url('../img/drink.jpg');
   /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.1);*/
 }
 
 section.module.parallax-5 {
-  height: 300px;
-  background-image: url('../img/soumontha-rattanakone-watercolor2.jpg');
+  height: 400px;
+  background-image: url('../img/watch.jpg');
   box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
 }
 
-section.module.parallax-6 {
-  height: 300px;
-  background-image: url('../img/drink.jpg');
-  /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);*/
+section.module.content.intro {
+  background-image: url('../img/m32.jpg');
 }
 
 section.module.content {
@@ -198,12 +202,12 @@ section.module.content {
 }
 
 #mycompany img {
-  margin-top: 250px; 
+  margin-top: 300px; 
   font-family: 'MyWebFont', Lato, sans-serif;
   font-size: 100px;
   color: black;
   letter-spacing: 2px;
-  width: 43%;
+  width: 38%;
 }
 
 #mytitle {
@@ -228,15 +232,14 @@ section.module.content {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: #43464b;
-  padding-right: 200px;
-  padding-left: 200px;
+  line-height: 28px;
 }
 
 .myheadingone {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-weight: 700;
-  font-size: 35px;
-  color: black;
+  font-size: 30px;
+  color: #333333;
   letter-spacing: 1px;
 }
 
@@ -788,17 +791,30 @@ section.module.content {
 }
 
 #mypaddingboxes2 {
-  padding: 150px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
-.style14 {
+#mypaddingboxes3 {
+  padding: 250px; 
+}
+
+
+hr.style14 {
   border: 0; 
   height: 1px; 
-  width: 80px;
+  width: 300px;
   background-image: -webkit-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
   background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+}
+
+hr.style1 {
+  border-top: 1px solid #222222;
+  height: 1px; 
+  width: 270px;
+  
 }
 
 .myform {
@@ -856,6 +872,46 @@ input[type=button], input[type=submit], input[type=reset] {
 }
 
 .module-window {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+.intro-box {
+  background: white;
+}
+
+.intro-background {
+  background-image: url('../img/colors.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro-background-2 {
+  background-image: url('../img/introline.png');
+  background-repeat: none;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 990px;
+}
+
+.intro-bg-space {
+  padding-top: 900px;
+}
+
+.intro-text-space {
+  padding-top: 145px;
+  padding-bottom: 120px;
+}
+
+
+
+
