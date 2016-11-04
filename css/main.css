@@ -71,7 +71,7 @@ body {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
-    padding: 55px 0;
+    padding: 65px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
@@ -164,7 +164,7 @@ section.module.parallax-4 h1 {
 
 section.module.parallax-1 {
   /*min-height: 100%;*/
-  background-image: url('../img/splashimage4.jpg');
+  background-image: url('../img/splashimage8.png');
   background-size: 1050px;
   /*box-shadow:inset 0 0 0 2000px rgba(255,255,255,0.3);*/
 }
@@ -176,7 +176,7 @@ section.module.parallax-2 {
 }
 
 section.module.parallax-3 {
-  height: 400px;
+  height: 350px;
   background-image: url('../img/m32.jpg');
   /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.4);*/
 }
@@ -243,6 +243,14 @@ section.module.content {
   letter-spacing: 1px;
 }
 
+.myheadingone-skills {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
 .mycopyright {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #43464b;
@@ -256,6 +264,8 @@ section.module.content {
   font-size: 15px;
   font-weight: 300;
   color: #43464b;
+  padding-left: 30px;
+  padding-top: 5px;
 }
 
 .space-images {
@@ -796,9 +806,12 @@ section.module.content {
 }
 
 #mypaddingboxes3 {
-  padding: 250px; 
+  padding: 150px; 
 }
 
+#mypaddingboxes4 {
+  padding: 250px; 
+}
 
 hr.style14 {
   border: 0; 
@@ -814,6 +827,13 @@ hr.style1 {
   border-top: 1px solid #222222;
   height: 1px; 
   width: 270px;
+  
+}
+
+hr.style1-portfolio {
+  border-top: 1px solid #222222;
+  height: 1px; 
+  width: 210px;
   
 }
 
@@ -871,10 +891,10 @@ input[type=button], input[type=submit], input[type=reset] {
   font-size: 15px;
 }
 
-.module-window {
-  padding-left: 20px;
-  padding-right: 20px;
-}
+/*.module-window {
+  padding-left: 150px;
+  padding-right: 150px;
+}*/
 
 .intro-box {
   background: white;
@@ -909,9 +929,15 @@ input[type=button], input[type=submit], input[type=reset] {
 
 .intro-text-space {
   padding-top: 145px;
-  padding-bottom: 120px;
+  padding-bottom: 116px;
 }
 
+.verticalLine {
+  border-right: 1px solid #222222;
+  height: 70px; 
+  padding-right: 30px;
+}
 
-
-
+.skills-bg-color {
+  background: #fafafa;
+}
