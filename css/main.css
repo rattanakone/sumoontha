@@ -8,901 +8,272 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
-.navbar-nav{
+/* ---- NAVIGATION ---- */
+
+.navbar-nav {
   float:none;
   margin: 0 auto;
   display: table;
   table-layout: fixed;
 }
-
-.navbar-custom {
+.navbar-default {
   background-color: #ffffff;
   border-color: transparent;
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 }
-.navbar-custom .navbar-brand {
+.navbar-default .navbar-brand img {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  color: #43464b;
-  text-transform: uppercase;
-  font-size: 12px;
+  color: #333333;
+  font-size: 15px;
+  font: 300 1em/1.5em 'Didot';
+  font: Ultra-Light 300 1em/1.5em 'Didot';
+  font: Ultra-Light 300 1em/1.5em 'Didot', serif;
+  width: 100px;
+  margin-top: -20px;
 }
+/*
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: #fec503;
+  color: #ffffff;
 }
-.navbar-custom .navbar-collapse {
+*/
+.navbar-default .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
 }
-.navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+.navbar-default .navbar-toggle {
+  background-color: #ffffff;
+  border-color: transparent;
+  border-radius: 0;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 12px;
 }
-.navbar-custom .navbar-toggle:hover,
-.navbar-custom .navbar-toggle:focus {
-  background-color: #fed136;
+.navbar-toggle .icon-bar{
+  background-color: #333333;
+  height: 1px;
+  width: 30px; 
 }
-.navbar-custom .nav li a {
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #ffffff;
+}
+.navbar-default .nav li a {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  color: #43464b;
+  color: #333333;
   text-transform: capitalize;
-  font-size: 13px;
+  font-size: 14px;
 }
-.navbar-custom .nav li a:hover,
-.navbar-custom .nav li a:focus {
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
   color: #00e5e5;
   outline: none;
 }
-.navbar-custom .navbar-nav > .active > a {
+.navbar-default .navbar-nav > .active > a {
   border-radius: 0;
   color: black;
   background-color: white;
 }
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
   color: black;
   background-color: #fec503;
 }
 @media (min-width: 768px) {
-  .navbar-custom {
-    background-color: transparent;
-    padding: 65px 0;
+  .navbar-default {
+    background-color: #ffffff;
+    padding: -5px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   }
-  .navbar-custom .navbar-brand {
+  .navbar-default .navbar-brand img {
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-    color: #43464b;
-    text-transform: uppercase;
-    font-size: 12px;
+    color: #333333;
+    font-size: 15px;
+    font: 300 1em/1.5em 'Didot';
+    font: Ultra-Light 300 1em/1.5em 'Didot';
+    font: Ultra-Light 300 1em/1.5em 'Didot', serif;
+    width: 100px;
+    margin-top: -20px;
   }
-  .navbar-custom .navbar-nav > .active > a {
+  .navbar-default .navbar-nav > .active > a {
     border-radius: 0;
   }
 }
 @media (min-width: 768px) {
-  .navbar-custom.affix {
+  .navbar-default.affix {
     background-color: #ffffff;
-    padding: 10px 0;
+    padding: 15px 0;
   }
-  .navbar-custom .nav li a {
+  .navbar-default .nav li a {
     font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-    color: #43464b;
+    color: #333333;
     text-transform: capitalize;
-    font-size: 13px;
+    font-size: 14px;
   }
-  .navbar-custom.affix .navbar-brand {
+  .navbar-default.affix .navbar-brand {
     font-size: 12px;
   }
 }
 
+/* ---- NAVIGATION ---- */
 
 
-section.module:last-child {
-  margin-bottom: 0;
+/* ---- HEADER ---- */
+
+.header-image-position {
+  margin-top: 50px;
 }
 
-section.module p {
-  margin-bottom: 40px;
-  font-size: 16px;
-  font-weight: 300;
-  color: black;
-}
-
-section.module p:last-child {
-  margin-bottom: 0;
-}
-
-section.module.parallax {
-  height: 800px;
-  background-position: 50% 50%;
+.header-bg {
+  background-image: url('../img/third-hero-image.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
+  background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
+  -o-background-size: cover;
+  background-size: 1350px;
 }
 
-section.module.parallax-2 h1 {
-  font-weight: 300;
-  color: black;
-  font-size: 50px;
-  line-height: 600px;
-  text-align: right;
-  letter-spacing: 2px;
-} 
-
-section.module.parallax-3 h1 {
-  font-weight: 300;
-  color: black;
-  font-size: 50px;
-  line-height: 600px;
-  text-align: right;
-  letter-spacing: 2px;
-} 
-
-section.module.parallax-4 h1 {
-  font-weight: 300;
-  color: black;
-  font-size: 50px;
-  line-height: 600px;
-  text-align: right;
-  letter-spacing: 2px;
+.header-bg-position {
+  padding-top: 200px;
+  padding-bottom: 180px;
 }
 
-section.module.parallax-1 {
-  /*min-height: 100%;*/
-  background-image: url('../img/splashimage8.png');
-  background-size: 1050px;
-  /*box-shadow:inset 0 0 0 2000px rgba(255,255,255,0.3);*/
+/* ---- HEADER ---- */
+
+
+/* ---- MY NAME HEADING ---- */
+
+.my-title-heading-position {
+  margin-top: 80px;
 }
 
-section.module.parallax-2 {
-  height: 400px;
-  background-image: url('../img/glasses.jpg');
-  /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);*/
-}
-
-section.module.parallax-3 {
-  height: 350px;
-  background-image: url('../img/m32.jpg');
-  /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.4);*/
-}
-
-section.module.parallax-4 {
-  height: 400px;
-  background-image: url('../img/drink.jpg');
-  /*box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.1);*/
-}
-
-section.module.parallax-5 {
-  height: 400px;
-  background-image: url('../img/watch.jpg');
-  box-shadow:inset 0 0 0 2000px rgba(0,0,0,0.2);
-}
-
-section.module.content.intro {
-  background-image: url('../img/m32.jpg');
-}
-
-section.module.content {
-  background: white;
-}
-
-#mycompany img {
-  margin-top: 300px; 
-  font-family: 'MyWebFont', Lato, sans-serif;
-  font-size: 100px;
-  color: black;
-  letter-spacing: 2px;
-  width: 38%;
-}
-
-#mytitle {
+.my-title-heading {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 16px;
-  color: #43464b;
-  text-align: center;  
-  margin-top: -30px;
+  color: #333333;
+  font-size: 50px;
+  line-height: 30px;
 }
 
-#myminus {
-  color: black;
+.my-name-heading {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  color: #333333;
+  font-size: 17px;
 }
 
-#myimage img {
-  margin-top: 7px;
-  width: 20%;
+.learn-more-button {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 18px;
+  padding: 15px 45px;
+  border-radius: 0;
+  border-color: transparent;
+  background: #222222;
+  color: #ffffff;
 }
 
-#myintro {
+/* ---- MY NAME HEADING ---- */
+
+
+/* ---- INTRODUCTION SECTION ---- */
+
+.thank-you-text-bg-image {
+  background-image: url('../img/feathers.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.thank-you-box-padding {
+  padding-bottom: 700px;
+}
+
+.thank-you-title {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  color: #333333;
+  font-size: 40px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
+.thank-you-text {
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #43464b;
+  color: #333333;
   line-height: 28px;
 }
 
-.myheadingone {
+.contact-me-button {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-weight: 700;
-  font-size: 30px;
+  font-size: 18px;
+  padding: 15px 45px;
+  border-radius: 0;
+  border-color: transparent;
+  background: #222222;
+  color: #ffffff;
+}
+
+.intro-text-bg-color {
+  background-color: #ffffff;
+}
+
+.intro-box-text-padding {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quote-text {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
-  letter-spacing: 1px;
+  font-size: 25px;
 }
 
-.myheadingone-skills {
+hr.style-intro {
+  border-top: 1px solid #333333;
+  height: 5px; 
+  width: 600px;
+}
+
+.intro-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   color: #333333;
-  letter-spacing: 1px;
 }
 
-.mycopyright {
-  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  color: #43464b;
-  font-size: 13px;
-  padding: 25px;
-  text-transform: capitalize;
-}
-
-#myskills {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+.intro-text-style {
   font-weight: 300;
-  color: #43464b;
-  padding-left: 30px;
-  padding-top: 5px;
-}
-
-.space-images {
-  padding-bottom: 300px;
-}
-
-.exercise {
-  background-image: url('../img/soumontha-rattanakone-exercise.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.exercise:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.video {
-  background-image: url('../img/soumontha-rattanakone-icecream.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.video:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.monkey {
-  background-image: url('../img/soumontha-rattanakone-monkey.jpeg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.monkey:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.food {
-  background-image: url('../img/soumontha-rattanakone-noodles.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.food:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.mountain {
-  background-image: url('../img/soumontha-rattanakone-mountain.jpeg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.mountain:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.makeup {
-  background-image: url('../img/soumontha-rattanakone-makeup.png');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.makeup:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.fortune {
-  background-image: url('../img/soumontha-rattanakone-fortune-cookie.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.fortune:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.deer {
-  background-image: url('../img/soumontha-rattanakone-deer.png');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.deer:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.bernard {
-  background-image: url('../img/soumontha-rattanakone-bernardablola.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.bernard:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.blind-heart {
-  background-image: url('../img/soumontha-rattanakone-eyewoman.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.blind-heart:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.mountain-woman {
-  background-image: url('../img/soumontha-rattanakone-mountains.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.mountain-woman:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.watercolor-man {
-  background-image: url('../img/soumontha-rattanakone-watercolor.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.watercolor-man:hover {
-  opacity: 0.9;
-  filter: alpha(opacity=100);
-}
-
-.fox {
-  background-image: url('../img/soumontha-rattanakone-fox-gallery.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.fox:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=100);
-}
-
-.city-couple {
-  background-image: url('../img/soumontha-rattanakone-citycouple.jpg');
-  background-repeat: none;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  opacity: 1;
-  filter: alpha(opacity=40);
-}
-
-.city-couple:hover {
-  opacity: 0.7;
-  filter: alpha(opacity=100);
-}
-
-.exercise-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.exercise-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.video-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.video-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.monkey-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.monkey-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.food-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.food-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.mountain-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.mountain-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.makeup-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.makeup-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.fortune-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.fortune-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.deer-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.deer-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.bernard-title {
-  font: 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto';
-  font: Ultra-Light 700 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 12px;
-  padding-top: 25px;
-  color: black;
-  letter-spacing: 1px;
-}
-
-.bernard-source {
-  font: 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto';
-  font: Ultra-Light 300 1em/1.5em 'Roboto', sans-serif;
-  margin-left: 15px;
-  font-size: 11px;
-  padding-top: 2px;
-  color: #43464b;
-  letter-spacing: 1px;
-}
-
-.project-button {
-  padding: 1px 20px;
-  border-radius: 0;
-  border-color: transparent;
-  display: inline-block;
-  font-size: 30px;
-  background: white;
-  color: black;
-  margin-top: 170px;
-  margin-left: 170px;
-}
-
-.project-button-second {
-  padding: 1px 20px;
-  border-radius: 0;
-  border-color: transparent;
-  display: inline-block;
-  font-size: 30px;
-  background: white;
-  color: black;
-  margin-top: 130px;
-  margin-left: 80px;
-}
-
-.exercise:hover .view-button {
-  visibility: visible;
-  opacity: 1;
-}
-
-.video:hover .view-button {
-  visibility: visible;
-  opacity: 1;
-}
-
-.monkey:hover .view-button {
-  visibility: visible;
-  opacity: 1;
-}
-
-.food:hover .view-button {
-  visibility: visible;
-  opacity: 1;
-}
-
-.mountain:hover .view-button {
-  visibility: visible;
-  opacity: 1;
-}
-
-.view-button {
-  visibility: hidden;
-  opacity: 0;
-}
-
-.project-button:hover {
-  color: black;
-  background: white;
-  border-color: black;
-}
-
-.project-button-second:hover {
-  color: black;
-  background: white;
-  border-color: black;
-}
-
-#mycyanblock {
-  background-color: #00e5e5;
-}
-
-.myblockspace {
-  padding: 1px;
-}
-
-#mypaddingboxes {
-  padding: 200px;
-}
-
-#mypaddingboxes2 {
-  padding-left: 150px;
-  padding-right: 150px;
-}
-
-#mypaddingboxes3 {
-  padding: 150px; 
-}
-
-#mypaddingboxes4 {
-  padding: 250px; 
-}
-
-hr.style14 {
-  border: 0; 
-  height: 1px; 
-  width: 300px;
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-}
-
-hr.style1 {
-  border-top: 1px solid #222222;
-  height: 1px; 
-  width: 270px;
-  
-}
-
-hr.style1-portfolio {
-  border-top: 1px solid #222222;
-  height: 1px; 
-  width: 210px;
-  
-}
-
-.myform {
-  margin: 100px;
-  padding-right: 200px;
-  padding-left: 200px;
-}
-
-input[type=text] {
   font-family: 'Roboto', sans-serif;
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border-radius: 0;
+  font-size: 16px;
+  color: #222222;
+  line-height: 28px;
 }
 
-input[type=email] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
+.intro-box-padding {
+  padding-bottom: 700px;
 }
 
-textarea {
-  width: 100%;
-  height: 150px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 0;
-  background-color: #f8f8f8;
-  resize: none;
-}
-
-.form-control {
-  border-radius: 0;
-}
-
-input[type=button], input[type=submit], input[type=reset] {
-  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  padding: 16px 32px;
-  text-decoration: none;
-  margin: 4px 2px;
-  cursor: pointer;
-    
-}
-
-.contact-label {
-  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 15px;
-}
-
-/*.module-window {
-  padding-left: 150px;
-  padding-right: 150px;
-}*/
-
-.intro-box {
-  background: white;
-}
-
-.intro-background {
-  background-image: url('../img/colors.png');
-  background-repeat: none;
+.intro-text-bg-image {
+  background-image: url('../img/bubbles.jpg');
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
@@ -911,33 +282,82 @@ input[type=button], input[type=submit], input[type=reset] {
   -o-background-size: cover;
 }
 
-.intro-background-2 {
-  background-image: url('../img/introline.png');
-  background-repeat: none;
+.skills-text-bg-image {
+  background-image: url('../img/skills.jpg');
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-size: 990px;
+  height: 600px;
 }
 
-.intro-bg-space {
-  padding-top: 900px;
+.skills-box-padding {
+  padding-top: 400px;
+  padding-bottom: 400px;
 }
 
-.intro-text-space {
-  padding-top: 145px;
-  padding-bottom: 116px;
+.skills-text-bg-color {
+  background-color: #ffffff;
+  margin-top: 140px;
 }
 
-.verticalLine {
-  border-right: 1px solid #222222;
-  height: 70px; 
-  padding-right: 30px;
+.skills-box-text-padding {
+  padding-top: 70px;
+  padding-bottom: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
-.skills-bg-color {
-  background: #fafafa;
+.skills-title {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 40px;
+  color: #333333;
+}
+
+hr.style-skills {
+  border-top: 1px solid #333333;
+  height: 1px; 
+  width: 140px;
+}
+
+.skills-text-style {
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333333;
+  line-height: 28px;
+}
+
+.portfolio-bg-image {
+  background-color: #ffffff;
+}
+
+.portfolio-box-text-padding {
+  padding-top: 365px;
+  padding-bottom: 400px;
+}
+
+.portfolio-title {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: #333333;
+  letter-spacing: 2px;
+}
+
+.portfolio-bottom-border {
+  border-bottom: 15px solid #ffffff;
+}
+
+.portfolio-box-color {
+  background-color: #00e5e5;
+  border-right: 15px solid #ffffff;
+}
+
+.portfolio-padding-space {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
