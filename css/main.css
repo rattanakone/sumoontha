@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
+a:visited { 
+    color: #333333;
+}
+
 /* ---- NAVIGATION ---- */
 
 .navbar-nav {
@@ -639,28 +643,15 @@ img {
 /* ---- CONTACT SECTION ---- */
 
 
-#mypaddingboxes3 {
+#contact-padding {
   padding: 150px; 
 }
 
-.myheadingone {
+.contact-heading-one {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
   color: #333333;
-  letter-spacing: 1px;
 }
-
-hr.style14 {
-  border: 0; 
-  height: 1px; 
-  width: 300px;
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
-}
-
 
 input[type=text] {
   font-family: 'Roboto', sans-serif;
@@ -695,28 +686,30 @@ textarea {
 
 input[type=button], input[type=submit], input[type=reset] {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  background-color: white;
-  border: 1px solid black;
-  color: black;
-  padding: 16px 32px;
+  font-size: 18px;
+  padding: 15px 45px;
+  border-radius: 0;
+  border-color: transparent;
+  background: #222222;
+  color: #ffffff;
   text-decoration: none;
-  margin: 4px 2px;
   cursor: pointer;   
 }
 
 .contact-label {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 15px;
+  color: #333333;
 }
 
 /* ---- CONTACT SECTION ---- */
 
 /* ---- ALL RIGHTS RESERVED SECTION ---- */
 
-.mycopyright {
+.all-rights-reserved {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #43464b;
-  font-size: 13px;
+  font-size: 15px;
   padding: 25px;
   text-transform: capitalize;
 }
