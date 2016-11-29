@@ -142,12 +142,12 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-size: 1350px;
+  background-size: 1348px;
 }
 
 .header-bg-position {
   padding-top: 200px;
-  padding-bottom: 180px;
+  padding-bottom: 160px;
 }
 
 /* ---- HEADER ---- */
@@ -184,11 +184,16 @@ body {
 
 /* ---- MY NAME HEADING ---- */
 
+/* ---- THANK YOU ---- */
 
-/* ---- INTRODUCTION SECTION ---- */
+.my-container {
+  padding-left: 52px;
+  padding-right: 52px;
+  border: 2px solid #ffffff;
+}
 
-.thank-you-text-bg-image {
-  background-image: url('../img/feathers.jpg');
+.thank-you-bg {
+  background-image: url('../img/paint2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -199,17 +204,17 @@ body {
 }
 
 .thank-you-box-padding {
-  padding-bottom: 700px;
+  padding-bottom: 780px;
 }
 
 .thank-you-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
   font-size: 40px;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  padding-left: 50px;
-  padding-right: 20px;
+  padding-top: 200px;
+  padding-left: 450px;
+  padding-right: 450px;
+  line-height: 80px;
 }
 
 .thank-you-text {
@@ -230,33 +235,86 @@ body {
   color: #ffffff;
 }
 
+/* ---- THANK YOU ---- */
+
+/* ---- MODELS FIRST SECTION ---- */
+
+.copyright-bykobrinphoto-adobe-stock-1 {
+  background-image: url('../img/copyright-bykobrinphoto-adobe-stock-1.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 250px;
+}
+
+.quote-box-padding-1 {
+  padding-top: 500px;
+}
+
+.copyright-bykobrinphoto-adobe-stock-2 {
+  background-image: url('../img/copyright-bykobrinphoto-adobe-stock-2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 250px;
+}
+
+.copyright-bykobrinphoto-adobe-stock-3 {
+  background-image: url('../img/copyright-bykobrinphoto-adobe-stock-3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 250px;
+}
+
+/* ---- MODELS FIRST SECTION ---- */
+
+/* ---- INTRODUCTION SECTION ---- */
+
 .intro-text-bg-color {
   background-color: #ffffff;
 }
 
 .intro-box-text-padding {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-top: 100px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.intro-title {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 35px;
+  color: #333333;
 }
 
 .quote-text {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.author-quote {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  color: #333333;
+  font-size: 15px;
 }
 
 hr.style-intro {
   border-top: 1px solid #333333;
   height: 5px; 
   width: 600px;
-}
-
-.intro-title {
-  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 40px;
-  color: #333333;
 }
 
 .intro-text-style {
@@ -268,7 +326,7 @@ hr.style-intro {
 }
 
 .intro-box-padding {
-  padding-bottom: 700px;
+  padding-bottom: 750px;
 }
 
 .intro-text-bg-image {
@@ -291,7 +349,7 @@ hr.style-intro {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  height: 600px;
+  height: 700px;
 }
 
 .skills-box-padding {
@@ -313,7 +371,7 @@ hr.style-intro {
 
 .skills-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #333333;
 }
 
@@ -331,8 +389,64 @@ hr.style-skills {
   line-height: 28px;
 }
 
+/* ---- INTRODUCTION SECTION ---- */
+
+/* ---- MODELS SECOND SECTION ---- */
+
+
+.copyright-bykobrinphoto-adobe-stock-4 {
+  background-image: url('../img/copyright-bykobrinphoto-adobe-stock-4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 280px;
+} 
+
+.quote-box-padding-2 {
+  padding-top: 500px;
+}
+
+.copyright-bykobrinphoto-adobe-stock-5 {
+  background-image: url('../img/copyright-bykobrinphoto-adobe-stock-5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 280px;
+} 
+
+.copyright-bykobrinphoto-adobe-stock-6 {
+  background-image: url('../img/copyright-bykobrinphoto-adobe-stock-6.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-size: 280px;
+} 
+
+/* ---- MODELS SECOND SECTION ---- */
+
+/* ---- PORTFOLIO SECTION ---- */
+
 .portfolio-bg-image {
-  background-color: #ffffff;
+  background-image: url('../img/white-feathers.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 .portfolio-box-text-padding {
@@ -342,10 +456,8 @@ hr.style-skills {
 
 .portfolio-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-weight: 700;
-  font-size: 28px;
+  font-size: 40px;
   color: #333333;
-  letter-spacing: 2px;
 }
 
 .portfolio-bottom-border {
@@ -353,7 +465,7 @@ hr.style-skills {
 }
 
 .portfolio-box-color {
-  background-color: #00e5e5;
+  background-color: #ffffff;
   border-right: 15px solid #ffffff;
 }
 
@@ -361,3 +473,252 @@ hr.style-skills {
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+.copyright-Viacheslav-Iakobchuk-adobe-stock {
+  background-image: url('../img/copyright-Viacheslav-Iakobchuk-adobe-stock.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.copyright-neirfy-adobe-stock {
+  background-image: url('../img/copyright-neirfy-adobe-stock.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.monkey {
+  background-image: url('../img/soumontha-rattanakone-monkey.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.luna {
+  background-image: url('../img/soumontha-rattanakone-noodles.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.rainier {
+  background-image: url('../img/soumontha-rattanakone-rainier.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.makeup {
+  background-image: url('../img/soumontha-rattanakone-beauty.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.fortune {
+  background-image: url('../img/soumontha-rattanakone-fortune-cookie.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.bernard-ablola {
+  background-image: url('../img/soumontha-rattanakone-bernard-ablola.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.watercolor-lover {
+  background-image: url('../img/soumontha-rattanakone-watercolor.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.m3 {
+  background-image: url('../img/m3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.fox {
+  background-image: url('../img/soumontha-rattanakone-fox-gallery.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.couple {
+  background-image: url('../img/soumontha-rattanakone-citycouple.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.heart {
+  background-image: url('../img/soumontha-rattanakone-eyewoman.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+img {
+  pointer-events: none;
+}
+
+/* ---- PORTFOLIO SECTION ---- */
+
+/* ---- CONTACT SECTION ---- */
+
+
+#mypaddingboxes3 {
+  padding: 150px; 
+}
+
+.myheadingone {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #333333;
+  letter-spacing: 1px;
+}
+
+hr.style14 {
+  border: 0; 
+  height: 1px; 
+  width: 300px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #000000, #f0f0f0);
+}
+
+
+input[type=text] {
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 0;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;   
+}
+
+.contact-label {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  font-size: 15px;
+}
+
+/* ---- CONTACT SECTION ---- */
+
+/* ---- ALL RIGHTS RESERVED SECTION ---- */
+
+.mycopyright {
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  color: #43464b;
+  font-size: 13px;
+  padding: 25px;
+  text-transform: capitalize;
+}
+
+/* ---- ALL RIGHTS RESERVED SECTION ---- */
