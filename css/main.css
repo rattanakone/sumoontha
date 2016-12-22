@@ -167,12 +167,22 @@ a:visited {
   color: #333333;
   font-size: 50px;
   line-height: 30px;
+  -moz-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  animation: fadeIn 2s;
 }
 
 .my-name-heading {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
   font-size: 17px;
+  -moz-animation: fadeIn 1s;
+  -ms-animation: fadeIn 1s;
+  -o-animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
 }
 
 .learn-more-button {
@@ -184,6 +194,11 @@ a:visited {
   background: #222222;
   color: #ffffff;
 }
+
+.learn-more-button:visited { 
+    color: #ffffff;
+}
+
 
 /* ---- MY NAME HEADING ---- */
 
@@ -241,6 +256,10 @@ a:visited {
   border-color: transparent;
   background: #222222;
   color: #ffffff;
+}
+
+.contact-me-button:visited { 
+    color: #ffffff;
 }
 
 /* ---- THANK YOU ---- */
