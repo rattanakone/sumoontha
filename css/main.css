@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', sans-serif; 
 }
 
+a:link {
+  color: #333333;
+}
+
 a:visited { 
     color: #333333;
 }
@@ -138,7 +142,7 @@ a:visited {
 }
 
 .header-bg {
-  background-image: url('../img/third-hero-image.jpg');
+  background-image: url('../img/third-hero-image copy 2.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -149,8 +153,30 @@ a:visited {
 }
 
 .header-bg-position {
-  padding-top: 200px;
-  padding-bottom: 250px;
+  padding-top: 50px;
+  padding-bottom: 180px;
+}
+
+@media (min-width: 768px) {
+  .header-image-position {
+    margin-top: 50px;
+  }
+
+  .header-bg {
+    background-image: url('../img/third-hero-image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .header-bg-position {
+    padding-top: 200px;
+    padding-bottom: 250px;
+  } 
 }
 
 /* ---- HEADER ---- */
@@ -159,13 +185,13 @@ a:visited {
 /* ---- MY NAME HEADING ---- */
 
 .my-title-heading-position {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .my-title-heading {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
-  font-size: 50px;
+  font-size: 28px;
   line-height: 30px;
   -moz-animation: fadeIn 2s;
   -ms-animation: fadeIn 2s;
@@ -177,7 +203,7 @@ a:visited {
 .my-name-heading {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
-  font-size: 17px;
+  font-size: 16px;
   -moz-animation: fadeIn 1s;
   -ms-animation: fadeIn 1s;
   -o-animation: fadeIn 1s;
@@ -187,16 +213,59 @@ a:visited {
 
 .learn-more-button {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 18px;
-  padding: 15px 45px;
+  font-size: 14px;
+  padding: 14px 40px;
   border-radius: 0;
   border-color: transparent;
   background: #222222;
   color: #ffffff;
 }
 
-.learn-more-button:visited { 
+.learn-more-button:link { 
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .my-title-heading-position {
+    margin-top: 80px;
+  }
+
+  .my-title-heading {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #333333;
+    font-size: 50px;
+    line-height: 30px;
+    -moz-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    animation: fadeIn 2s;
+  }
+
+  .my-name-heading {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #333333;
+    font-size: 17px;
+    -moz-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  .learn-more-button {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 18px;
+    padding: 15px 45px;
+    border-radius: 0;
+    border-color: transparent;
+    background: #222222;
     color: #ffffff;
+  }
+
+  .learn-more-button:visited { 
+    color: #ffffff;
+  }
 }
 
 
@@ -227,16 +296,15 @@ a:visited {
 }
 
 .thank-you-box-padding {
-  padding-bottom: 780px;
+  padding: 40px;
+  padding-bottom: 100px;
 }
 
 .thank-you-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
-  font-size: 40px;
-  padding-top: 200px;
-  padding-left: 450px;
-  padding-right: 450px;
+  font-size: 35px;
+  padding-top: 80px;
   line-height: 80px;
 }
 
@@ -250,16 +318,63 @@ a:visited {
 
 .contact-me-button {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 18px;
-  padding: 15px 45px;
+  font-size: 14px;
+  padding: 14px 40px;
   border-radius: 0;
   border-color: transparent;
   background: #222222;
   color: #ffffff;
 }
 
-.contact-me-button:visited { 
+.contact-me-button:link { 
     color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .thank-you-bg {
+    background-image: url('../img/paint2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .thank-you-box-padding {
+    padding-bottom: 780px;
+  }
+
+  .thank-you-title {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #333333;
+    font-size: 40px;
+    padding-top: 200px;
+    line-height: 80px;
+  }
+
+  .thank-you-text {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 28px;
+  }
+
+  .contact-me-button {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 18px;
+    padding: 15px 45px;
+    border-radius: 0;
+    border-color: transparent;
+    background: #222222;
+    color: #ffffff;
+  }
+
+  .contact-me-button:visited { 
+    color: #ffffff;
+  }
 }
 
 /* ---- THANK YOU ---- */
@@ -306,6 +421,54 @@ a:visited {
   background-size: 270px;
 }
 
+@media (min-width: 768px) {
+  .my-container {
+    padding-left: 52px;
+    padding-right: 52px;
+    border: 2px solid #ffffff;
+  }
+
+  .copyright-bykobrinphoto-adobe-stock-1 {
+    background-image: url('../img/copyright-bykobrinphoto-adobe-stock-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 270px;
+  }
+
+  .quote-box-padding-1 {
+    padding-top: 500px;
+  }
+
+  .copyright-bykobrinphoto-adobe-stock-2 {
+    background-image: url('../img/copyright-bykobrinphoto-adobe-stock-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 270px;
+  }
+
+  .copyright-bykobrinphoto-adobe-stock-3 {
+    background-image: url('../img/copyright-bykobrinphoto-adobe-stock-3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 270px;
+  }
+}
+
 /* ---- MODELS FIRST SECTION ---- */
 
 /* ---- INTRODUCTION SECTION ---- */
@@ -315,9 +478,9 @@ a:visited {
 }
 
 .intro-box-text-padding {
-  padding-top: 100px;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .intro-title {
@@ -329,13 +492,13 @@ a:visited {
 .quote-text {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
-  font-size: 20px;
+  font-size: 13px;
 }
 
 .author-quote {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   color: #333333;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 hr.style-intro {
@@ -357,7 +520,7 @@ hr.style-intro {
 }
 
 .intro-text-bg-image {
-  background-image: url('../img/bubbles.jpg');
+  background-image: url('../img/bubbles copy.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -365,6 +528,65 @@ hr.style-intro {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .intro-text-bg-color {
+    background-color: #ffffff;
+  }
+
+  .intro-box-text-padding {
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .intro-title {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 35px;
+    color: #333333;
+  }
+
+  .quote-text {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #333333;
+    font-size: 20px;
+  }
+
+  .author-quote {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    color: #333333;
+    font-size: 15px;
+  }
+
+  hr.style-intro {
+    border-top: 1px solid #333333;
+    height: 5px; 
+    width: 600px;
+  }
+
+  .intro-text-style {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #222222;
+    line-height: 28px;
+  }
+
+  .intro-box-padding {
+    padding-bottom: 750px;
+  }
+
+  .intro-text-bg-image {
+    background-image: url('../img/bubbles.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 }
 
 .skills-text-bg-image {
@@ -386,14 +608,14 @@ hr.style-intro {
 
 .skills-text-bg-color {
   background-color: #ffffff;
-  margin-top: 140px;
+  margin-top: 40px;
 }
 
 .skills-box-text-padding {
-  padding-top: 70px;
-  padding-bottom: 90px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .skills-title {
@@ -414,6 +636,57 @@ hr.style-skills {
   font-size: 16px;
   color: #333333;
   line-height: 28px;
+}
+
+@media (min-width: 768px) {
+  .skills-text-bg-image {
+    background-image: url('../img/skills.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 700px;
+  }
+
+  .skills-box-padding {
+    padding-top: 400px;
+    padding-bottom: 400px;
+  }
+
+  .skills-text-bg-color {
+    background-color: #ffffff;
+    margin-top: 140px;
+  }
+
+  .skills-box-text-padding {
+    padding-top: 70px;
+    padding-bottom: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .skills-title {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 35px;
+    color: #333333;
+  }
+
+  hr.style-skills {
+    border-top: 1px solid #333333;
+    height: 1px; 
+    width: 140px;
+  }
+
+  .skills-text-style {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 28px;
+  }
 }
 
 /* ---- INTRODUCTION SECTION ---- */
@@ -461,6 +734,48 @@ hr.style-skills {
   background-size: 270px;
 } 
 
+@media (min-width: 768px) {
+  .copyright-bykobrinphoto-adobe-stock-4 {
+    background-image: url('../img/copyright-bykobrinphoto-adobe-stock-4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 270px;
+  } 
+
+  .quote-box-padding-2 {
+    padding-top: 500px;
+  }
+
+  .copyright-bykobrinphoto-adobe-stock-5 {
+    background-image: url('../img/copyright-bykobrinphoto-adobe-stock-5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 270px;
+  } 
+
+  .copyright-bykobrinphoto-adobe-stock-6 {
+    background-image: url('../img/copyright-bykobrinphoto-adobe-stock-6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-size: 270px;
+  } 
+}
+
 /* ---- MODELS SECOND SECTION ---- */
 
 /* ---- PORTFOLIO SECTION ---- */
@@ -483,22 +798,88 @@ hr.style-skills {
 
 .portfolio-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #333333;
 }
 
 .portfolio-bottom-border {
-  border-bottom: 15px solid #ffffff;
+  border-bottom: 10px solid #ffffff;
 }
 
 .portfolio-box-color {
   background-color: #ffffff;
-  border-right: 15px solid #ffffff;
+  border-right: 10px solid #ffffff;
 }
 
 .portfolio-padding-space {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+@media (min-width: 768px) {
+  .portfolio-bg-image {
+    background-image: url('../img/white-feathers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .portfolio-box-text-padding {
+    padding-top: 365px;
+    padding-bottom: 400px;
+  }
+
+  .portfolio-title {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 40px;
+    color: #333333;
+  }
+
+  .portfolio-bottom-border {
+    border-bottom: 15px solid #ffffff;
+  }
+
+  .portfolio-box-color {
+    background-color: #ffffff;
+    border-right: 15px solid #ffffff;
+  }
+
+  .portfolio-padding-space {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+
+
+.project-button {
+  padding:7px 14px;
+  border-radius: 0;
+  border-color: transparent;
+  display: inline-block;
+  font-size: 17px;
+  font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  background: white;
+  color: black;
+}
+
+.project-button:hover {
+  color: white;
+  background: black;
+  border-color: white;
+}
+
+.project-button:visited {
+  color: black;
+}
+
+.view-button {
+  visibility: hidden;
+  opacity: 0;
 }
 
 .copyright-Viacheslav-Iakobchuk-adobe-stock {
@@ -511,6 +892,20 @@ hr.style-skills {
   background-size: cover;
   -o-background-size: cover;
   border-right: 15px solid #ffffff;
+  opacity: 1;
+  filter: alpha(opacity=40);
+  -webkit-transition:all .4s ease-in-out;
+  transition:all .4s ease-in-out
+}
+
+.copyright-Viacheslav-Iakobchuk-adobe-stock:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.copyright-Viacheslav-Iakobchuk-adobe-stock:hover .view-button {
+  visibility: visible;
+  opacity: 1;
 }
 
 .copyright-neirfy-adobe-stock {
@@ -525,6 +920,16 @@ hr.style-skills {
   border-right: 15px solid #ffffff;
 }
 
+.copyright-neirfy-adobe-stock:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.copyright-neirfy-adobe-stock:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
 .monkey {
   background-image: url('../img/soumontha-rattanakone-monkey.jpeg');
   background-repeat: no-repeat;
@@ -535,6 +940,16 @@ hr.style-skills {
   background-size: cover;
   -o-background-size: cover;
   border-right: 15px solid #ffffff;
+}
+
+.monkey:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.monkey:hover .view-button {
+  visibility: visible;
+  opacity: 1;
 }
 
 .luna {
@@ -549,6 +964,16 @@ hr.style-skills {
   border-right: 15px solid #ffffff;
 }
 
+.luna:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.luna:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
 .rainier {
   background-image: url('../img/soumontha-rattanakone-rainier.jpg');
   background-repeat: no-repeat;
@@ -559,6 +984,16 @@ hr.style-skills {
   background-size: cover;
   -o-background-size: cover;
   border-right: 15px solid #ffffff;
+}
+
+.rainier:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.rainier:hover .view-button {
+  visibility: visible;
+  opacity: 1;
 }
 
 .makeup {
@@ -573,6 +1008,16 @@ hr.style-skills {
   border-right: 15px solid #ffffff;
 }
 
+.makeup:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.makeup:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
 .fortune {
   background-image: url('../img/soumontha-rattanakone-fortune-cookie.jpg');
   background-repeat: no-repeat;
@@ -583,6 +1028,16 @@ hr.style-skills {
   background-size: cover;
   -o-background-size: cover;
   border-right: 15px solid #ffffff;
+}
+
+.fortune:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.fortune:hover .view-button {
+  visibility: visible;
+  opacity: 1;
 }
 
 .bernard-ablola {
@@ -597,6 +1052,16 @@ hr.style-skills {
   border-right: 15px solid #ffffff;
 }
 
+.bernard-ablola:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.bernard-ablola:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
 .watercolor-lover {
   background-image: url('../img/soumontha-rattanakone-watercolor.jpg');
   background-repeat: no-repeat;
@@ -609,16 +1074,14 @@ hr.style-skills {
   border-right: 15px solid #ffffff;
 }
 
-.m3 {
-  background-image: url('../img/m3.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  border-right: 15px solid #ffffff;
+.watercolor-lover:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.watercolor-lover:hover .view-button {
+  visibility: visible;
+  opacity: 1;
 }
 
 .fox {
@@ -633,6 +1096,38 @@ hr.style-skills {
   border-right: 15px solid #ffffff;
 }
 
+.fox:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.fox:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.m3 {
+  background-image: url('../img/m3.jpg');
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  border-right: 15px solid #ffffff;
+}
+
+.m3:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.m3:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
 .couple {
   background-image: url('../img/soumontha-rattanakone-citycouple.jpg');
   background-repeat: no-repeat;
@@ -643,6 +1138,16 @@ hr.style-skills {
   background-size: cover;
   -o-background-size: cover;
   border-right: 15px solid #ffffff;
+}
+
+.couple:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.couple:hover .view-button {
+  visibility: visible;
+  opacity: 1;
 }
 
 .heart {
@@ -657,6 +1162,16 @@ hr.style-skills {
   border-right: 15px solid #ffffff;
 }
 
+.heart:hover {
+  opacity: 0.9;
+  filter: alpha(opacity=100);
+}
+
+.heart:hover .view-button {
+  visibility: visible;
+  opacity: 1;
+}
+
 img {
   pointer-events: none;
 }
@@ -664,6 +1179,11 @@ img {
 /* ---- PORTFOLIO SECTION ---- */
 
 /* ---- JOURNAL SECTION ---- */
+
+.my-container-three {
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .journal-bg-image {
   background-image: url('../img/sand.jpg');
@@ -683,7 +1203,7 @@ img {
 
 .journal-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #333333;
 }
 
@@ -717,6 +1237,65 @@ img {
   line-height: 28px;
 }
 
+@media (min-width: 768px) {
+  .my-container-three {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+
+  .journal-bg-image {
+    background-image: url('../img/sand.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .journal-box-bg-padding {
+    padding-top: 365px;
+    padding-bottom: 400px;
+  }
+
+  .journal-title {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 40px;
+    color: #333333;
+  }
+
+  .journal-text-bg-image {
+    background-image: url('../img/black-feathers.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .journal-box-text-padding {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+
+  .journal-title-second {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 35px;
+    color: #333333;
+  }
+
+  .journal-text-style {
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #222222;
+    line-height: 28px;
+  }
+}
+
 /* ---- JOURNAL SECTION ---- */
 
 /* ---- CONTACT SECTION ---- */
@@ -739,18 +1318,53 @@ img {
 
 .contact-title {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 40px;
+  font-size: 35px;
   color: #ffffff;
 }
 
 #contact-padding {
-  padding: 150px; 
+  padding: 40px; 
 }
 
 .contact-title-second {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 35px;
   color: #333333;
+  padding-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .contact-bg-image {
+    background-image: url('../img/sparkles.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .contact-box-bg-padding {
+    padding-top: 365px;
+    padding-bottom: 400px;
+  }
+
+  .contact-title {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 40px;
+    color: #ffffff;
+  }
+
+  #contact-padding {
+    padding: 150px; 
+  }
+
+  .contact-title-second {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 35px;
+    color: #333333;
+  }
 }
 
 input[type=text] {
@@ -786,8 +1400,8 @@ textarea {
 
 input[type=button], input[type=submit], input[type=reset] {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-  font-size: 18px;
-  padding: 15px 45px;
+  font-size: 14px;
+  padding: 14px 40px;
   border-radius: 0;
   border-color: transparent;
   background: #222222;
@@ -800,6 +1414,20 @@ input[type=button], input[type=submit], input[type=reset] {
   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
   font-size: 15px;
   color: #333333;
+}
+
+@media (min-width: 768px) {
+  input[type=button], input[type=submit], input[type=reset] {
+    font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-size: 18px;
+    padding: 15px 45px;
+    border-radius: 0;
+    border-color: transparent;
+    background: #222222;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;   
+  }
 }
 
 /* ---- CONTACT SECTION ---- */
